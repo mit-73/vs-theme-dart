@@ -1,0 +1,43 @@
+{
+  "name": "vs-theme-dart",
+  "displayName": "VS Theme Dart",
+  "description": "Enhanced version of the default VS Code Dark themes for Dart",
+  "version": "0.0.1",
+  "publisher": "mit-73",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mit-73/vs-theme-dart"
+  },
+  "keywords": [
+    "VS",
+    "VS Code",
+    "dark",
+    "dart"
+  ],
+  "scripts": {
+    "git:push": "git push --follow-tags",
+    "postversion": "npm run release",
+    "release": "vsce publish && npm run git:push"
+  },
+  "galleryBanner": {
+    "color": "#1e1e1e",
+    "theme": "dark"
+  },
+  "engines": {
+    "vscode": "^1.17.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "icon": "images/vs-dart.png",
+  "contributes": {
+    "themes": [
+      {
+        "label": "VS Dark Dart",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark.json"
+      }
+    ]
+  }
+}
