@@ -4,7 +4,7 @@
   "colors": {
     "statusBar.background": "#00000000",
     "statusBar.noFolderBackground": "#00000000",
-    "statusBar.debuggingBackground": "#186b00",
+    "statusBar.debuggingBackground": "#156100",
     "editor.background": "#1E1E1E",
     "editor.foreground": "#D4D4D4",
     "editor.inactiveSelectionBackground": "#3A3D41",
@@ -94,13 +94,6 @@
       ],
       "settings": {
         "foreground": "#4EC9B0"
-      }
-    },
-    {
-      "name": "Control flow keywords",
-      "scope": "keyword.control",
-      "settings": {
-        "foreground": "#C586C0"
       }
     },
     {
@@ -462,13 +455,13 @@
     {
       "scope": "keyword.control",
       "settings": {
-        "foreground": "#569cd6"
+        "foreground": "#C586C0"
       }
     },
     {
       "scope": "keyword.operator",
       "settings": {
-        "foreground": "#DCDCAA"
+        "foreground": "#e5e5c1"
       }
     },
     {

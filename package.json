@@ -2,7 +2,7 @@
   "name": "vs-theme-dart",
   "displayName": "VS Theme Dart",
   "description": "Enhanced version of the default VS Code Dark themes for Dart",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "mit-73",
   "license": "SEE LICENSE IN LICENSE.md",
   "repository": {
